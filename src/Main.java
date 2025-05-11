@@ -26,7 +26,7 @@ public class Main {
         float averageSal = 0;
         sum = 0;
         for (int salary : salaries) {
-            sum = sum + salary;
+            sum += salary;
         }
         averageSal = (float) sum / salaries.length;
         System.out.println("Средняя сумма трат за месяц составила " + averageSal + " рублей");
